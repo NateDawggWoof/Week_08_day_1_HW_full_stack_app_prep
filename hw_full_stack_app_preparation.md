@@ -28,14 +28,26 @@ Draw a diagram showing the dataflow through the application starting with a form
 1. What is responsible for defining the routes of the `games` resource?
 
 
+Don't understand the question. the routes are made in the helper folder create_router.js
+
+
+
+
 
 2. What do you notice about the folder structure?  Whats the client responsible for? Whats the server responsible for?
+
+client side is responsible for front end, rendering and triggering CRUD
+
+server side is backend, handling the DB, routes functions/CRUD
 
 
 3. What are the the responsibilities of server.js?
 
+sets up local host 5000 feting the api and connecitng to the DB
+
 
 4. What are the responsibilities of the `gamesRouter`?
+
 
 
 5. What process does the the client (front-end) use to communicate with the server?
